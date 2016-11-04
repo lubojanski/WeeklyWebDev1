@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WeeklyWebDev</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="top-logo">
+            <img src="images/toplogo.png">
+        </div>
+    </header>
+
+
+
+    <ul class="forms-container">
+        <li class="form">
+            <form id="register">
+                <h1>Register Form</h1>
+                <div class=" container">
+                    <div class="container-background">
+                        <div class="input-row">
+                            <div class="icon username"></div>
+                            <div class="input">
+                                <input type="text" name="username" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="icon password"></div>
+                            <div class="input">
+                                <input type="text" name="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="icon password"></div>
+                            <div class="input">
+                                <input type="text" name="confirm-password" placeholder="Confirm Password">
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="icon email"></div>
+                            <div class="input">
+                                <input type="text" name="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="icon location"></div>
+                            <div class="input">
+                                <select>
+                                    <option value="" disabled selected class="first">Your Location</option>
+                                    <option value="polska">Poland</option>
+                                    <option value="polska">England</option>
+                                    <option value="polska">Monaco</option>
+                                    <option value="polska">Austria</option>
+                                    <option value="polska">France</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="checkbox-row">
+                            <input type="checkbox" id="terms" />
+                            <label for="terms"><span class="checkbox-background"></span>I have read and accept the terms of use. </label>
+                        </div>
+                        <div class="full-width-btn">
+                            <button type="submit" form="register">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </li>
+        <li class="form">
+            <form id="send-email">
+                <h1>Send Email</h1>
+                <div class=" container">
+                    <div class="container-background">
+                        <div class="input-row ">
+                            <div class="icon username"></div>
+                            <div class="input">
+                                <input type="text" name="your-name" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="icon email"></div>
+
+                            <div class="input">
+                                <input type="text" name="email" placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="message-area">
+                            <textarea name="message" placeholder="Type your message"></textarea>
+                        </div>
+                        <div class="checkbox-row">
+                            <input type="checkbox" id="send-copy" />
+                            <label for="send-copy"><span></span>Send a copy to my Email</label>
+                        </div>
+
+                        <div class="full-width-btn">
+                            <button type="submit" form="send-email">Send Email</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </li>
+
+        <li class="form">
+            <form id="sign-in">
+                <h1>Sign In Form</h1>
+                <div class=" container">
+                    <div class="container-background">
+                        <div class="input-row ">
+                            <div class="icon username"></div>
+                            <div class="input">
+                                <input type="text" name="username" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="icon password"></div>
+                            <div class="input">
+                                <input type="text" name="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="submit-row">
+                            <div class="checkbox-row">
+                                <input type="checkbox" id="remember-me" />
+                                <label for="remember-me"><span></span>Remember Me</label>
+                            </div>
+                            <div class="full-width-btn">
+                                <button type="submit" form="sign-in">Sign In</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </li>
+        <li class="form">
+            <form id="recover">
+                <h1>Recover Form</h1>
+                <div class=" container">
+                    <div class="container-background">
+                        <div class="input-row ">
+                            <div class="icon email"></div>
+                            <div class="input">
+                                <input type="text" name="email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                        <div class="input-row ">
+                            <div class="icon phone"></div>
+                            <div class="input">
+                                <input type="text" name="phone" placeholder="Enter your Phone number">
+                            </div>
+                        </div>
+                        <div class="submit-row">
+                            <div class="half-width-btn">
+                                <button type="submit">Send</button>
+                            </div>
+                            <div class="half-width-btn light-green">
+                                <button type="submit" form="recover">Done</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </li>
+        <li class="form">
+            <form id="subscribe">
+                <h1>Subscribe Form</h1>
+                <div class=" container">
+                    <div class="container-background">
+                        <div class="input-row ">
+                            <div class="icon email"></div>
+                            <div class="input">
+                                <input type="text" name="email" placeholder="Enter your Email">
+                            </div>
+                        </div>
+                        <div class="submit-row">
+                            <div class="half-width-btn">
+                                <button type="submit">Subscribe</button>
+                            </div>
+                            <div class="half-width-btn red">
+                                <button type="submit" form="subscribe">No, Thanks</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </li>
+        <li class="form">
+            <div id="bot-logo">
+                <img src="images/botlogo.png">
+            </div>
+        </li>
+
+    </ul>
+
+
+
+
+
+</body>
+
+</html>
